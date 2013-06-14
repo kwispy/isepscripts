@@ -3,7 +3,7 @@
 touch test.txt
 
 # redirect the standard output
-echo "This is a line of text." > test.txt
+echo "This is a line of text. EDITING" > test.txt
 
 # > is equivalent to 1> ("1" is for the standard output)
 echo "This is a line of text." 1> Test.txt
